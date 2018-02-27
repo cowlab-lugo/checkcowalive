@@ -1,0 +1,38 @@
+{
+    "name": "cowlab/checker",
+    "description": "A simple checker package example",
+    "keywords": ["cowlab", "lugo", "checker", "example"],
+    "type": "library",
+    "require": {
+        "php": ">=5.5",
+        "ext-curl": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Diego Vilariño",
+          "email": "diego.vilarino@gmail.com",
+          "homepage": "http://dieg0v.com",
+          "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cowlab\\Checker\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cowlab\\Checker\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "psr2": "php-cs-fixer fix src"
+    },
+    "minimum-stability": "stable"
+}
