@@ -1,6 +1,6 @@
 # check-cow-alive
 
-`check-cow-alive` is simple composer package that checks if one url response 200 OK
+`check-cow-alive` is simple composer package that checks if one url response `200 OK`
 
 ## History and goal
 
@@ -8,4 +8,4 @@ The project is born in a chat with Andrés and Oscar while we were drafting the 
 
 ## Features
 
-- Returns `true` id url response is `200 OK`, any other answer will be `false`
+- Returns `true` if url response is `200 OK`, any other answer will be `false`
