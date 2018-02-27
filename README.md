@@ -9,3 +9,7 @@ The project is born in a chat with Andrés and Oscar while we were drafting the 
 ## Features
 
 - Returns `true` if url response is `200 OK`, any other answer will be `false`
+
+## Instalation
+
+`composer require cowlab/checker`
