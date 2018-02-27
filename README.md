@@ -1,3 +1,11 @@
-# cowlab/checker
+# check-cow-alive
 
-A simple checker package example
+`check-cow-alive` is simple composer package that checks if one url response 200 OK
+
+## History and goal
+
+The project is born in a chat with Andrés and Oscar while we were drafting the practical part of a minimum viable package of the cowlab meeting.
+
+## Features
+
+- Returns `true` id url response is `200 OK`, any other answer will be `false`
